@@ -1,0 +1,13 @@
+tests/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+
+# Local virtual environments
+.venv/
+venv/
+
+# Local comparison/test artifacts
+.test_compare_wrappers/
