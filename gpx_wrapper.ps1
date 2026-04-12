@@ -3,6 +3,9 @@ param(
     [string]$InputPath
 )
 
+Write-Host 'GPX Wrapper for MakerBot Replicator 2'
+Write-Host 'This script injects necessary Start G-code for the Replicator 2'
+
 $ErrorActionPreference = 'Stop'
 
 function Invoke-InjectGpxBlock {
